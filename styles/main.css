@@ -20,6 +20,29 @@ a {
     height: auto;
     padding: 5px;
 }
+.brand{
+    display: block;
+}
+
+.brand .brandleft{
+    float: left;
+}
+
+.brand .brandright{
+    display: inline;
+    margin-right: 50px;;
+    float:right;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: headerVal;
+    
+}
+
+.brand .brandright i{
+    padding-left: 10px;
+    color: white;
+}
+
 #header .header-container h1{
     font-size: x-large;
     font-weight: 500;
