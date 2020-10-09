@@ -30,7 +30,7 @@ a {
 
 .brand .brandright{
     display: inline;
-    margin-right: 50px;;
+    margin-right: 50px;
     float:right;
     font-size: x-large;
     font-weight: 500;
@@ -54,10 +54,11 @@ a {
     padding-top: 39px;
 }
 
-#bgscape img{
-    width: 100vw;
+/* #bgscape img{
+    display: none;
+    width: 50vw;
     height:auto;
-}
+} */
 
 
 .hero-container{
@@ -86,6 +87,27 @@ a {
     font-size: 1rem;
 }
 /* FOOTER AREA STYLE END */
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 380px) {
+	#bgscape img{
+    display: inline;
+    width: 100vw;
+    height:auto;
+    }
+}
+/* End Media Query For Tablet */
+@media only screen and (min-width: 1200px) {
+#bgscape img{
+    display: none;
+    width: 100vw;
+    height:auto;
+    }
+
+}
+
+
+	/* End contact  */
 
 
 
