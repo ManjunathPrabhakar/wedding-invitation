@@ -31,6 +31,11 @@ a {
     padding-top: 39px;
 }
 
+#bgscape img{
+    width: 100vw;
+    height:auto;
+}
+
 
 .hero-container{
     font-size: xx-large;
