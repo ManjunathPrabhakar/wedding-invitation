@@ -26,17 +26,7 @@
     float: left;
 }
 
-.right_info{
-    padding-right: 15px ;
-    float: right;
-    font-size: x-large;
-}
 
-.right_info > i {
-  border-radius: 5px;
-  padding: 3px;
-  box-shadow: 0 8px 6px -6px black;
-}
 /* HEADER END */
 
 
@@ -103,6 +93,16 @@
 .section_header h1{
     font-family: 'Sansita Swashed', cursive;
 }
+/* --------------------- */
+
+/* -------------------- */
+
+li{
+    padding-left: 2px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
 /* CONTENT END */
 
 /* FOOTER START */
