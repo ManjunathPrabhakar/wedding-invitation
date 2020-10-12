@@ -1,113 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
+@font-face {
+  font-family: headerVal;
+  src: url(../fonts/HelloValentina.ttf);
+}
 
 * {
 	padding: 0;
 	margin: 0;
 }
-@font-face {
-  font-family: headerVal;
-  src: url(../fonts/HelloValentina.ttf);
-}
-a {
-	text-decoration: none;
+
+/* HEADER START */
+#main_header_container .image_carry > img{
+    width: 100%;
 }
 
-/* HEADER AREA STYLE START */
-#header {
-    position: fixed;
-    background-color: #485563;
-    width: 100vw;
-    height: auto;
-    padding: 5px;
-}
-.brand{
+#main_header_container .top_bar{
     display: block;
+    font-family: headerVal;
 }
 
-.brand .brandleft{
+.left_info{
+    padding-left: 5px;
     float: left;
 }
 
-.brand .brandright{
-    display: inline;
-    margin-right: 50px;
-    float:right;
+.right_info{
+    padding-right: 15px ;
+    float: right;
     font-size: x-large;
-    font-weight: 500;
-    font-family: headerVal;
-    
 }
 
-.brand .brandright i{
-    padding-left: 10px;
-    color: white;
+.right_info > i {
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 0 8px 6px -6px black;
 }
-
-#header .header-container h1{
-    font-size: x-large;
-    font-weight: 500;
-    font-family: headerVal;
-    color: white;
-}
-/* HEADER AREA STYLE END */
-#main_content{
-    padding-top: 39px;
-}
-
-/* #bgscape img{
-    display: none;
-    width: 50vw;
-    height:auto;
-} */
+/* HEADER END */
 
 
-.hero-container{
-    font-size: xx-large;
-    font-weight: 500;
-    font-family: headerVal;
-}
 
 
-/* FOOTER AREA STYLE START */
-#footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+/* CONTENT START */
+#marriage_content .main_details img {
+    width: 100%;
+    height: auto;
 }
-#footer .footer-container {
-	flex-direction: column;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-#footer p {
-    font-family: headerVal;
-    src: url(../fonts/HelloValentina.ttf);
+
+#title-container{
     position: relative;
-    left:50%;
-    transform: translateX(-50%);
-	color: white;
-    font-size: 1rem;
+    text-align: center;
+    color: white;
 }
-/* FOOTER AREA STYLE END */
 
-/* Media Query For Tablet */
-@media only screen and (min-width: 380px) {
-	#bgscape img{
-    display: inline;
-    width: 100vw;
-    height:auto;
-    }
+#centerdata{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
 }
-/* End Media Query For Tablet */
-@media only screen and (min-width: 1200px) {
-#bgscape img{
-    display: none;
-    width: 100vw;
-    height:auto;
-    }
 
+#centerdata #wedding-title{
+    font-family: headerVal;
+    font-size: 4rem;
+    text-shadow: 2px 2px #000000;
 }
 
 
-	/* End contact  */
+.section_header h1{
+    font-family: 'Sansita Swashed', cursive;
+}
+/* CONTENT END */
 
+/* FOOTER START */
+.footer_image_carry > img{
+  width: 100%;
+}
 
-
+.footer_message{
+    font-family: headerVal;
+}
+/* FOOTER END */
