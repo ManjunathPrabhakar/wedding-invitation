@@ -114,9 +114,8 @@
     height: auto; 
 }
 
-#venuw_details iframe{
-    width: 80%;
-    height: auto;
+#message{
+     font-family: 'Ropa Sans', sans-serif;
 }
 
 #venue_details h3{
