@@ -153,6 +153,10 @@ ul li
 /* CONTENT END */
 
 /* FOOTER START */
+#main_footer_container center.trans{
+    font-family: 'Ropa Sans', sans-serif;
+}
+
 .footer_image_carry > img{
   width: 100%;
 }
